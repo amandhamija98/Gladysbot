@@ -1,0 +1,26 @@
+{
+  "entities": [], 
+  "intent": {
+    "confidence": 0.6366804810955216, 
+    "name": "restaurant_search"
+  }, 
+  "text": "i want to order", 
+  "intent_ranking": [
+    {
+      "confidence": 0.6366804810955216, 
+      "name": "restaurant_search"
+    }, 
+    {
+      "confidence": 0.19253721100583487, 
+      "name": "goodbye"
+    }, 
+    {
+      "confidence": 0.1003267080624944, 
+      "name": "affirm"
+    }, 
+    {
+      "confidence": 0.07045559983614892, 
+      "name": "greet"
+    }
+  ]
+}

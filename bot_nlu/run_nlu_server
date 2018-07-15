@@ -1,0 +1,2 @@
+to run rasa nlu as a server at port 5000, go to the directort containing "projects folder" and type
+python -m rasa_nlu.server --path projects -p 5000
