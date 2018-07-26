@@ -20,7 +20,7 @@ btn.addEventListener('click',function(){
 //listen for events
 //when the server emits a 'chat' event,this is how the client will respond
 socket.on('chat',function(data){
-  output.innerHTML += '<p><strong>' + data.message
+  output.innerHTML += '<p><strong>' + "User: " + data.message
   + '</strong></p>';
 });
 socket.on('gladys_speaks',function(data){
